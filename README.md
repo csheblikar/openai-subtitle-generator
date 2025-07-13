@@ -2,13 +2,9 @@
 
 **openai-subtitle-generator** is a command-line utility for generating `.srt` subtitle files from `.mp3` and `.mp4` files using OpenAI’s Whisper speech-to-text model. It is designed to be simple, efficient, and easily integrable into audio processing workflows.
 
----
-
 ## Overview
 
 openai-subtitle-generator reads `.mp3` and `.mp4` files and transcribes them into `.srt` (SubRip Subtitle) format using OpenAI’s `whisper-1` model. It supports both single-file and batch processing modes, with optional verbosity for detailed logging.
-
----
 
 ## Features
 
@@ -17,8 +13,6 @@ openai-subtitle-generator reads `.mp3` and `.mp4` files and transcribes them int
 - Verbose mode for detailed logging
 - Minimal dependencies and easy setup
 - Cross-platform support via Python
-
----
 
 ## Prerequisites
 
@@ -30,8 +24,6 @@ Install the required Python package:
 ```bash
 pip install openai
 ```
-
----
 
 ## Usage
 
@@ -58,7 +50,5 @@ python generate_srt.py path/to/audio.mp3 -v
 ```bash
 Combine options:
 ```
-
----
 
 Output .srt files will be saved in the same directory as the input files, using the same base filename.
