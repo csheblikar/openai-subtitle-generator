@@ -45,10 +45,4 @@ python generate_srt.py path/to/folder -r
 python generate_srt.py path/to/audio.mp3 -v
 ```
 
-### Combine options:
-
-```bash
-Combine options:
-```
-
 Output .srt files will be saved in the same directory as the input files, using the same base filename.
